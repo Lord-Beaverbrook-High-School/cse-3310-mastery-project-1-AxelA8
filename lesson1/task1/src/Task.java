@@ -74,7 +74,7 @@ public class Task {
             }
         }
 
-        if (moved) { // Removed end - start > 1 from here and moved it above 'moved = true' and it actually sorts more correctly now!!! (I think)
+        if (moved) { // [Copied comment] Removed end - start > 1 from here and moved it above 'moved = true' and it actually sorts more correctly now!!! (I think)
             quickSort(array, start, nextDown);
             pivot++; // To make a 'middle' between nextDown and pivot, to exclude the number in that 'middle' because it has already been used as a pivot.
             quickSort(array, pivot, end);

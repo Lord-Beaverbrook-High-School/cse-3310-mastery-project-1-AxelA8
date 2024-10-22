@@ -21,7 +21,7 @@ public class Task {
         }
         System.out.println("_______________\n_______________");
         for (int i = 0; i < arrays.length; i++) {
-            System.out.printf("(%d, AFTER)%n", i);
+            System.out.printf("(%d, AFTER)%n", i+1);
             String printee = displayIntArray(arrays[i]);
             System.out.println(printee);
         }

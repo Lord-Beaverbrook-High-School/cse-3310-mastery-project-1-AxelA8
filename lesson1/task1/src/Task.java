@@ -11,7 +11,7 @@ public class Task {
         int[][] arrays = {arrayer1, arrayer2, arrayer3};
 
         for (int i = 0; i < arrays.length; i++) {
-            System.out.printf("(%d, BEFORE)%n", i);
+            System.out.printf("(%d, BEFORE)%n", i+1);
             String printee = displayIntArray(arrays[i]);
             System.out.println(printee);
         }
